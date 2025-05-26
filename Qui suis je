@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Qui suis-je ? | Yume Trip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Qui suis-je ?</h1>
+    </header>
+    <main>
+        <section>
+            <p>Je suis Amanda, maman solo, passionnée de voyages, débrouillarde et ultra gourmande (oui, je l’avoue : on voyage souvent pour manger !).  
+            Depuis des années, je parcours la France, l’Europe et l’Asie avec mon fils : Espagne, Italie, Grèce, Danemark, Japon, Thaïlande, Vietnam…  
+            Au fil des voyages, j’ai appris à dénicher les bons plans, organiser des itinéraires malins, trouver des logements et des billets abordables — pas seulement pour moi, mais aussi pour mes amis, leurs voyages entre potes, leurs séjours en famille.</p>
+
+            <p>Avec <strong>Yume Trip</strong>, je veux montrer que voyager n’est pas réservé à une élite : c’est accessible, même avec un petit budget, même avec des enfants, même quand on croit que c’est compliqué.  
+            Je veux partager mes astuces, mon expérience, et vous aider à créer vos propres aventures.</p>
+
+            <p><em>Parce que chaque voyage commence par un rêve… et un petit coup de pouce pour le rendre possible.</em></p>
+        </section>
+        <a href="index.html">← Retour à l'accueil</a>
+    </main>
+</body>
+</html>
