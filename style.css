@@ -1,26 +1,40 @@
+/* Style général */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f6; /* fond très clair */
-    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f9f8f6; /* blanc cassé */
+    color: #333;
+    line-height: 1.6;
 }
 
-h1, h2 {
-    color: #556b2f; /* vert olive */
+/* Conteneur principal */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff; /* blanc pur pour les blocs */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Header */
+header {
+    background-color: #a3b18a; /* vert sauge */
+    color: #fff;
+    padding: 20px;
     text-align: center;
 }
 
-nav {
-    background-color: #8a9a5b; /* vert sauge */
-    padding: 10px;
-    text-align: center;
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
 }
 
 nav a {
-    color: white;
+    color: #fefae0; /* crème */
+    margin: 0 10px;
     text-decoration: none;
-    margin: 0 15px;
     font-weight: bold;
 }
 
@@ -28,20 +42,30 @@ nav a:hover {
     text-decoration: underline;
 }
 
-p, ul {
-    max-width: 800px;
-    margin: 20px auto;
-    line-height: 1.6;
+/* Bouton */
+.bouton {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 12px 20px;
+    background-color: #588157; /* vert mousse */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
 }
 
-ul {
-    list-style-type: square;
+.bouton:hover {
+    background-color: #3a5a40; /* plus foncé au survol */
 }
 
+/* Footer */
 footer {
-    background-color: #8a9a5b;
-    color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    background-color: #6c757d; /* bleu ardoise */
+    color: #fefae0;
     margin-top: 40px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
+
